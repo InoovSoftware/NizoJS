@@ -1,5 +1,7 @@
 ![nizoJS Logo](logo.svg)
+
 _Africa's First JavaScript Framework_
+
 *Empowering developers with a lightweight, modular, and performance-first framework.*
 
 ---
