@@ -1,0 +1,31 @@
+#nizoJS Framework Directory Structure
+
+nizoJS/
+├── 📦 dist/                  # Compiled and minified distribution files
+│   ├── nizoJS-1.0.0.min.js
+│   └── nizoJS-1.0.0.js
+├── 📂 src/                   # Source code
+│   ├── core/                 # Core utilities and helpers
+│   │   ├── events.js
+│   │   ├── storage.js
+│   │   └── utils.js
+│   ├── dom/                  # DOM manipulation utilities
+│   │   ├── query.js
+│   │   └── domUtils.js
+│   ├── router/               # Routing system
+│   │   ├── history.js
+│   │   └── router.js
+│   ├── store/                # State management
+│   │   ├── store.js
+│   │   └── actions.js
+│   └── index.js              # Entry point for the framework
+├── 📂 examples/              # Example applications
+│   ├── todo-app/
+│   └── weather-app/
+├── 📂 tests/                 # Unit and integration tests
+│   ├── core.test.js
+│   ├── dom.test.js
+│   └── router.test.js
+├── 📄 README.md              # Project documentation
+├── 📄 package.json           # Project metadata and dependencies
+└── 📄 .gitignore             # Git ignore file
